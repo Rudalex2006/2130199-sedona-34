@@ -63,9 +63,12 @@ div {
 }
 
 .navigation-list {
+	display: flex;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	width: 490px;
+	list-style-type: none;
 }
 
 .navigation-user {
@@ -74,6 +77,8 @@ div {
 }
 
 .navigation-link {
+	display: block;
+	padding: 20px 34px;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
@@ -84,11 +89,15 @@ div {
 }
 
 .navigation-item-search {
+	min-width: 18px;
+	min-height: 18px;
 	background-image: url("../images/search.svg");
 	background-repeat: no-repeat;
 }
 
 .navigation-item-favourites {
+	min-width: 18px;
+	min-height: 18px;
 	background-image: url("../images/favorite.svg");
 	background-repeat: no-repeat;
 }
