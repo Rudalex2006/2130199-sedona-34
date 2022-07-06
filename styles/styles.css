@@ -71,9 +71,12 @@ div {
 	list-style-type: none;
 }
 
-.navigation-user {
-	max-width: 300px;
+.navigation-list-navigation-user {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 310px;
 	margin-left: auto;
+	list-style-type: none;
 }
 
 .navigation-link {
@@ -107,7 +110,15 @@ div {
 	margin: 0 auto;
 }
 
+.reasons > b {
+	margin-top: 63px;
+	margin-bottom: 31px;
+}
+
+
 .main-index {
+	margin-top: 51px;
+	margin-bottom: 83px;
 	background-image: url("../images/welcome.svg");
 	background-repeat: no-repeat;
 }
@@ -146,6 +157,33 @@ div {
 	justify-content: space-between;
 	width: 400px;
 	flex-direction: column;
+}
+
+.icon-housing {
+	display: flex;
+	background-image: url("../images/housing.svg");
+	background-repeat: no-repeat;
+	width: 75px;
+	height: 72px;
+	margin-top: 80px;
+}
+
+.icon-food {
+	display: flex;
+	background-image: url("../images/food.svg");
+	background-repeat: no-repeat;
+	width: 75px;
+	height: 72px;
+	margin-top: 80px;
+}
+
+.icon-gift {
+	display: flex;
+	background-image: url("../images/gift.svg");
+	background-repeat: no-repeat;
+	width: 75px;
+	height: 72px;
+	margin-top: 80px;
 }
 
 .booking {
@@ -283,6 +321,8 @@ ul {
 	font-size: 22px;
 	line-height: 26px;
 	text-align: center;
+	margin-top: 31px;
+	margin-bottom: 90px;
 }
 
 .reasons-title {
@@ -292,6 +332,8 @@ ul {
 	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
+	margin-top: 92px;
+	margin-bottom: 30px;
 }
 
 .reasons-description {
@@ -300,6 +342,8 @@ ul {
 	line-height: 21px;
 	text-align: center;
 	color: #ffffff;
+	margin-top: 81px;
+	margin-bottom: 92px;
 }
 
 .reasons-item-city .reasons-title {
@@ -308,6 +352,17 @@ ul {
 	width: 230px;
 	margin: 0 85px;
 	color: #000000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.reasons-item > div {
+	display: flex;
+}
+
+.main-background-city {
+	display: flex;
+	margin-right: 0 auto;
 }
 
 .reasons-item-city .reasons-description {
@@ -316,6 +371,7 @@ ul {
 	width: 230px;
 	margin: 0 85px;
 	color: #333333;
+	margin-bottom: 80px;
 }
 
 .reasons-item-bridge .reasons-title {
@@ -341,7 +397,6 @@ ul {
 	text-align: center;
 	color: #333333;
 }
-
 
 .reasons-item-bridge:nth-child(2n+1) {
 	background: rgba(131, 179, 211, 0.12);
